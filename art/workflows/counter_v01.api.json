@@ -1,0 +1,86 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "waiIllustriousSDXL_v170.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "masterpiece, best quality, scenery, no humans, anime visual novel background, cozy small cafe interior, warm clean lineart, soft cel shading, cream plaster walls, honey oak wood, muted terracotta accents, soft morning daylight, view from behind the serving counter looking out into the customer seating area, eye-level straight-on symmetrical composition, a broad empty wooden counter surface spanning the bottom quarter of the image, an open empty standing space for a customer at the center beyond the counter, entrance door and tall windows in the distant background, a few small tables at the far sides, potted green plants at the edges, charming storybook atmosphere, readable simple shapes, spacious uncluttered center, wide landscape illustration",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, person, human, girl, boy, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, clutter, fisheye, distorted perspective, oversaturated, dark",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 1344,
+      "height": 768,
+      "batch_size": 1
+    }
+  },
+  "5": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 2026111301,
+      "steps": 28,
+      "cfg": 5.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "5",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "7": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/20261113_121937/counter_v01_source"
+    }
+  }
+}

@@ -1,0 +1,101 @@
+{
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped"
+  },
+  "assets": [
+    {
+      "id": "workbench_v02",
+      "output": "backgrounds/workbench_v02.png",
+      "width": 1344,
+      "height": 768,
+      "seed": 2026111302,
+      "positive": "masterpiece, best quality, scenery, no humans, anime visual novel background, (empty wooden tabletop:1.6), (bare clean worktop:1.5), close view looking down at an empty honey oak barista preparation table, slightly elevated view, large bare tabletop fills the lower three quarters of the frame, cream ceramic tile wall along the upper quarter, warm sunlight from the right, soft shadows at the edges, warm brown clean lineart, soft cel shading, cream and honey wood palette, simple uncluttered cozy cafe background, completely empty tabletop, wide landscape composition",
+      "negative": "worst quality, low quality, photorealistic, 3d render, people, hands, text, letters, logo, watermark, (cup, mug, glass, pitcher, jug, bottle, food, fruit, drink, plate, bowl, teapot:1.5), clutter, centerpiece, objects on tabletop, dark"
+    },
+    {
+      "id": "art_station_v01",
+      "output": "backgrounds/art_station_v01.png",
+      "width": 1344,
+      "height": 768,
+      "seed": 2026111303,
+      "positive": "masterpiece, best quality, scenery, no humans, (directly overhead view:1.4), flat lay, a large empty honey oak wooden cafe worktop seen from directly above, a simple plain cream linen rectangular placemat at the center, large blank clean surface, subtle wood grain, soft warm daylight from the right, warm brown lineart, soft cel shading, cozy anime game background, restrained details, spacious empty composition, wide landscape illustration",
+      "negative": "worst quality, low quality, photorealistic, 3d render, people, hands, text, letters, logo, watermark, cup, mug, glass, drink, coffee, plate, food, fruit, bowl, cutlery, perspective, wall, room, clutter"
+    },
+    {
+      "id": "counter_front_v01",
+      "output": "props/counter_front_v01.png",
+      "width": 1344,
+      "height": 512,
+      "seed": 2026111310,
+      "transparent": true,
+      "positive": "masterpiece, best quality, no humans, single isolated game prop, (wide horizontal wooden shop counter:1.4), honey oak wood, straight-on front view with the empty flat tabletop visible from slightly above, simple warm cream paneled front, very wide and low rectangular shape, smooth clean silhouette, entire counter visible with small margins, anime game asset, warm brown lineart, soft cel shading, gentle sunlight, plain white background, no decorations, no objects on the counter",
+      "negative": "worst quality, low quality, photorealistic, 3d render, people, hands, text, logo, watermark, room, scenery, wall, floor, cup, mug, drink, plate, objects on the counter, chair, multiple tables, diagonal view, round table"
+    },
+    {
+      "id": "cup_empty_v01",
+      "output": "props/cup_empty_v01.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111321,
+      "transparent": true,
+      "positive": "masterpiece, best quality, no humans, single isolated game item, (one empty ceramic coffee cup:1.4), rounded ivory white latte cup with a simple terracotta red stripe around the lower outside, one small handle on the right, empty clean white inside clearly visible, three-quarter view from slightly above, centered whole object with generous white margins, warm brown clean lineart, soft cel shading, cozy anime cafe game asset, simple readable silhouette, plain pure white background, no saucer, no decoration"
+    },
+    {
+      "id": "cup_foam_top_v01",
+      "output": "props/cup_foam_top_v01.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111322,
+      "transparent": true,
+      "positive": "masterpiece, best quality, no humans, single isolated game item, (one round ivory ceramic latte cup:1.3), (directly overhead view:1.5), perfect circular rim, one small handle pointing right, cup filled with a smooth uniform pale cream milk foam surface, blank unmarked foam surface for drawing latte art, no pattern, centered whole cup with generous white margins, warm brown clean lineart, soft cel shading, cozy anime cafe game asset, simple readable silhouette, pure white background, no saucer",
+      "negative": "worst quality, low quality, photorealistic, 3d render, people, hands, text, letters, logo, watermark, signature, multiple cups, saucer, plate, latte art, heart, leaf, pattern, decoration, spoon, angled view, perspective, table, room, dark coffee"
+    },
+    {
+      "id": "ingredient_espresso_v01",
+      "output": "ingredients/espresso_v01.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111331,
+      "transparent": true,
+      "positive": "masterpiece, best quality, no humans, single isolated game item, one small ivory ceramic pouring jug filled with dark brown espresso coffee, short open pouring spout on the left, small handle on the right, open top with coffee visible, no lid, three-quarter view from slightly above, entire jug centered with generous margins, warm brown clean lineart, soft cel shading, cozy anime cafe game asset, simple bold readable silhouette, pure white background, no saucer"
+    },
+    {
+      "id": "ingredient_milk_v01",
+      "output": "ingredients/milk_v01.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111332,
+      "transparent": true,
+      "positive": "masterpiece, best quality, no humans, single isolated game item, one small capped glass milk bottle full of opaque white milk, simple muted sage green cap, plain bottle without a label, three-quarter view from slightly above, entire bottle centered with generous margins, warm brown clean lineart, soft cel shading, cozy anime cafe game asset, simple bold readable silhouette, pure white background"
+    },
+    {
+      "id": "ingredient_syrup_v01",
+      "output": "ingredients/syrup_v01.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111333,
+      "transparent": true,
+      "positive": "masterpiece, best quality, no humans, single isolated game item, one squat amber glass cafe syrup dispenser bottle with a simple dark brown pump on top, filled with golden caramel syrup, plain bottle without a label, three-quarter view from slightly above, entire bottle and pump centered with generous margins, warm brown clean lineart, soft cel shading, cozy anime cafe game asset, simple bold readable silhouette, pure white background"
+    },
+    {
+      "id": "ingredient_chocolate_v01",
+      "output": "ingredients/chocolate_v01.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111334,
+      "transparent": true,
+      "positive": "masterpiece, best quality, no humans, single isolated game item, one small dark chocolate brown plastic squeeze bottle with a simple pointed cream-colored nozzle cap, plain bottle without a label, three-quarter view from slightly above, entire bottle centered with generous margins, warm brown clean lineart, soft cel shading, cozy anime cafe game asset, simple bold readable silhouette, pure white background"
+    },
+    {
+      "id": "luka_neutral_cutout",
+      "output": "characters/luka_neutral.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\luka_neutral.png",
+      "transparent": true
+    }
+  ]
+}

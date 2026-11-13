@@ -1,0 +1,59 @@
+{
+  "asset": {
+    "id": "art_station_v03",
+    "output": "backgrounds/art_station_v03.png",
+    "width": 1344,
+    "height": 768,
+    "seed": 2026111352,
+    "positive": "A clean hand-drawn anime game background. A directly overhead view of an entirely empty light oak tabletop. The level flat wooden surface fills the whole wide landscape image. Its subtle straight wooden grain runs horizontally across the frame. A plain rectangular beige fabric placemat lies flat in the center, with plenty of empty space on every side. The placemat is completely bare. Soft diffuse warm daylight, no harsh shadows, light beige and muted brown colors, clean delicate brown outlines, gentle cel shading. There are no objects, cups, dishes, food or letters anywhere. This is an empty working surface for a cafe game. masterpiece, best quality, scenery, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, watermark, logo, people, hands, photorealistic, 3d render"
+  },
+  "prompt_id": "9a10b199-78c2-47b7-8907-59600e0ef1e6",
+  "submitted_at": "2026-11-13T12:25:13.765892",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "9a10b199-78c2-47b7-8907-59600e0ef1e6",
+          "timestamp": 1794540313767
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4",
+            "10",
+            "11"
+          ],
+          "prompt_id": "9a10b199-78c2-47b7-8907-59600e0ef1e6",
+          "timestamp": 1794540313767
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "9a10b199-78c2-47b7-8907-59600e0ef1e6",
+          "timestamp": 1794540324303
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\backgrounds\\art_station_v03.png",
+  "elapsed_seconds": 12.1,
+  "review_status": "selected_first_draft"
+}

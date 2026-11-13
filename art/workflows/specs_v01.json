@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, person, human, girl, boy, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, clutter, fisheye, distorted perspective, oversaturated, dark"
+  },
+  "assets": [
+    {
+      "id": "counter_v01",
+      "output": "backgrounds/counter_v01.png",
+      "width": 1344,
+      "height": 768,
+      "seed": 2026111301,
+      "positive": "masterpiece, best quality, scenery, no humans, anime visual novel background, cozy small cafe interior, warm clean lineart, soft cel shading, cream plaster walls, honey oak wood, muted terracotta accents, soft morning daylight, view from behind the serving counter looking out into the customer seating area, eye-level straight-on symmetrical composition, a broad empty wooden counter surface spanning the bottom quarter of the image, an open empty standing space for a customer at the center beyond the counter, entrance door and tall windows in the distant background, a few small tables at the far sides, potted green plants at the edges, charming storybook atmosphere, readable simple shapes, spacious uncluttered center, wide landscape illustration"
+    },
+    {
+      "id": "workbench_v01",
+      "output": "backgrounds/workbench_v01.png",
+      "width": 1344,
+      "height": 768,
+      "seed": 2026111302,
+      "positive": "masterpiece, best quality, scenery, no humans, anime visual novel background, cozy cafe barista work station, close view of a large empty honey oak preparation tabletop, slightly elevated three-quarter view looking down onto the tabletop, the empty clean working surface fills the lower two thirds of the image, cream ceramic tile backsplash across the upper third, small compact espresso machine at the far upper left corner, simple wooden shelf with a few cups far above the working surface, soft morning daylight, warm clean lineart, soft cel shading, cream and honey brown with muted terracotta accents, centered empty space reserved for a cup and game items, no items in the center, tidy readable composition, wide landscape illustration"
+    }
+  ]
+}

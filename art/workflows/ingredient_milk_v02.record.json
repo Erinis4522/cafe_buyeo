@@ -1,0 +1,60 @@
+{
+  "asset": {
+    "id": "ingredient_milk_v02",
+    "output": "ingredients/milk_v02.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111366,
+    "transparent": true,
+    "positive": "One simple clear glass milk bottle full of opaque white milk, with a muted sage green metal cap, isolated on a pure white background. The glass is completely plain and unmarked, without a sticker, label, logo, letters, drawings or decoration. View from slightly above, the entire bottle is centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration, cozy muted colors. This is a single object illustration with no surrounding scene. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render"
+  },
+  "prompt_id": "b4d754c2-c081-410c-a400-b1af89713304",
+  "submitted_at": "2026-11-13T12:27:33.816253",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "b4d754c2-c081-410c-a400-b1af89713304",
+          "timestamp": 1794540453817
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4",
+            "10",
+            "11"
+          ],
+          "prompt_id": "b4d754c2-c081-410c-a400-b1af89713304",
+          "timestamp": 1794540453818
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "b4d754c2-c081-410c-a400-b1af89713304",
+          "timestamp": 1794540464889
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\ingredients\\milk_v02.png",
+  "elapsed_seconds": 12.6,
+  "review_status": "selected_first_draft"
+}

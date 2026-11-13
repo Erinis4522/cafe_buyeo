@@ -1,0 +1,180 @@
+{
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped"
+  },
+  "assets": [
+    {
+      "id": "bruno_delight_cutout",
+      "output": "characters/bruno_delight.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\bruno_delight.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "bruno_neutral_cutout",
+      "output": "characters/bruno_neutral.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\bruno_neutral.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "bruno_sad_cutout",
+      "output": "characters/bruno_sad.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\bruno_sad.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "cain_delight_cutout",
+      "output": "characters/cain_delight.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\cain_delight.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "cain_neutral_cutout",
+      "output": "characters/cain_neutral.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\cain_neutral.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "cain_sad_cutout",
+      "output": "characters/cain_sad.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\cain_sad.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "cherry_delight_cutout",
+      "output": "characters/cherry_delight.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\cherry_delight.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "cherry_neutral_cutout",
+      "output": "characters/cherry_neutral.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\cherry_neutral.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "cherry_sad_cutout",
+      "output": "characters/cherry_sad.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\cherry_sad.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "luka_delight_cutout",
+      "output": "characters/luka_delight.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\luka_delight.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "luka_neutral_cutout",
+      "output": "characters/luka_neutral.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\luka_neutral.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "luka_sad_cutout",
+      "output": "characters/luka_sad.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\luka_sad.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "mina_delight_cutout",
+      "output": "characters/mina_delight.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\mina_delight.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "mina_neutral_cutout",
+      "output": "characters/mina_neutral.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\mina_neutral.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "mina_sad_cutout",
+      "output": "characters/mina_sad.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\mina_sad.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "noel_delight_cutout",
+      "output": "characters/noel_delight.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\noel_delight.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "noel_neutral_cutout",
+      "output": "characters/noel_neutral.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\noel_neutral.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "noel_sad_cutout",
+      "output": "characters/noel_sad.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\noel_sad.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "owen_delight_cutout",
+      "output": "characters/owen_delight.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\owen_delight.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "owen_neutral_cutout",
+      "output": "characters/owen_neutral.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\owen_neutral.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "owen_sad_cutout",
+      "output": "characters/owen_sad.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\owen_sad.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "rio_delight_cutout",
+      "output": "characters/rio_delight.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\rio_delight.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "rio_neutral_cutout",
+      "output": "characters/rio_neutral.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\rio_neutral.png",
+      "transparent": true,
+      "clean_alpha": true
+    },
+    {
+      "id": "rio_sad_cutout",
+      "output": "characters/rio_sad.png",
+      "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\rio_sad.png",
+      "transparent": true,
+      "clean_alpha": true
+    }
+  ]
+}

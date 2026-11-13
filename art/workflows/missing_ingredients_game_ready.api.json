@@ -1,0 +1,602 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/caramel_v01.png"
+    }
+  },
+  "2": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "1",
+        0
+      ],
+      "x": 294,
+      "y": 24,
+      "width": 436,
+      "height": 956
+    }
+  },
+  "3": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "width": 137,
+      "height": 300,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "4": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "1",
+        1
+      ]
+    }
+  },
+  "5": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "4",
+        0
+      ],
+      "x": 294,
+      "y": 24,
+      "width": 436,
+      "height": 956
+    }
+  },
+  "6": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "5",
+        0
+      ],
+      "width": 137,
+      "height": 300,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "7": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "6",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "8": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "3",
+        0
+      ],
+      "alpha": [
+        "7",
+        0
+      ]
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/game_ready/caramel"
+    }
+  },
+  "10": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/hazelnut_v01.png"
+    }
+  },
+  "11": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "10",
+        0
+      ],
+      "x": 310,
+      "y": 100,
+      "width": 407,
+      "height": 845
+    }
+  },
+  "12": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "11",
+        0
+      ],
+      "width": 144,
+      "height": 300,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "13": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "10",
+        1
+      ]
+    }
+  },
+  "14": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "13",
+        0
+      ],
+      "x": 310,
+      "y": 100,
+      "width": 407,
+      "height": 845
+    }
+  },
+  "15": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "14",
+        0
+      ],
+      "width": 144,
+      "height": 300,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "16": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "15",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "17": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "12",
+        0
+      ],
+      "alpha": [
+        "16",
+        0
+      ]
+    }
+  },
+  "18": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "17",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/game_ready/hazelnut"
+    }
+  },
+  "19": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/strawberry_v01.png"
+    }
+  },
+  "20": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "19",
+        0
+      ],
+      "x": 274,
+      "y": 125,
+      "width": 475,
+      "height": 754
+    }
+  },
+  "21": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "20",
+        0
+      ],
+      "width": 189,
+      "height": 300,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "22": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "19",
+        1
+      ]
+    }
+  },
+  "23": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "22",
+        0
+      ],
+      "x": 274,
+      "y": 125,
+      "width": 475,
+      "height": 754
+    }
+  },
+  "24": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "23",
+        0
+      ],
+      "width": 189,
+      "height": 300,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "25": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "24",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "26": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "21",
+        0
+      ],
+      "alpha": [
+        "25",
+        0
+      ]
+    }
+  },
+  "27": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "26",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/game_ready/strawberry"
+    }
+  },
+  "28": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/matcha_v01.png"
+    }
+  },
+  "29": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "28",
+        0
+      ],
+      "x": 263,
+      "y": 206,
+      "width": 511,
+      "height": 627
+    }
+  },
+  "30": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "29",
+        0
+      ],
+      "width": 244,
+      "height": 300,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "31": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "28",
+        1
+      ]
+    }
+  },
+  "32": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "31",
+        0
+      ],
+      "x": 263,
+      "y": 206,
+      "width": 511,
+      "height": 627
+    }
+  },
+  "33": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "32",
+        0
+      ],
+      "width": 244,
+      "height": 300,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "34": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "33",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "35": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "30",
+        0
+      ],
+      "alpha": [
+        "34",
+        0
+      ]
+    }
+  },
+  "36": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "35",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/game_ready/matcha"
+    }
+  },
+  "37": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/cinnamon_v01.png"
+    }
+  },
+  "38": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "37",
+        0
+      ],
+      "x": 250,
+      "y": 172,
+      "width": 474,
+      "height": 675
+    }
+  },
+  "39": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "38",
+        0
+      ],
+      "width": 211,
+      "height": 300,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "40": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "37",
+        1
+      ]
+    }
+  },
+  "41": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "40",
+        0
+      ],
+      "x": 250,
+      "y": 172,
+      "width": 474,
+      "height": 675
+    }
+  },
+  "42": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "41",
+        0
+      ],
+      "width": 211,
+      "height": 300,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "43": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "42",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "44": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "39",
+        0
+      ],
+      "alpha": [
+        "43",
+        0
+      ]
+    }
+  },
+  "45": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "44",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/game_ready/cinnamon"
+    }
+  },
+  "46": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/honey_v01.png"
+    }
+  },
+  "47": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "46",
+        0
+      ],
+      "x": 88,
+      "y": 140,
+      "width": 854,
+      "height": 719
+    }
+  },
+  "48": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "47",
+        0
+      ],
+      "width": 300,
+      "height": 253,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "49": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "46",
+        1
+      ]
+    }
+  },
+  "50": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "49",
+        0
+      ],
+      "x": 88,
+      "y": 140,
+      "width": 854,
+      "height": 719
+    }
+  },
+  "51": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "50",
+        0
+      ],
+      "width": 300,
+      "height": 253,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "52": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "51",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "53": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "48",
+        0
+      ],
+      "alpha": [
+        "52",
+        0
+      ]
+    }
+  },
+  "54": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "53",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/game_ready/honey"
+    }
+  }
+}

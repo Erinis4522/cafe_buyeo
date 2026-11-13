@@ -1,0 +1,59 @@
+{
+  "asset": {
+    "id": "cup_empty_v03",
+    "output": "props/cup_empty_v03.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111363,
+    "transparent": true,
+    "positive": "A single isolated empty ceramic latte cup on a plain pure white background. It is a short wide bowl-shaped off-white cup with a simple small handle on the right and a thin terracotta red band around the lower outside. The cup is completely empty, and its clean white interior and inside bottom are visible. View from 45 degrees above, centered composition, the entire cup fits comfortably with white margins. No saucer, liquid, pattern, logo or letters. Delicate warm brown outlines and soft detailed cel shading, hand-drawn anime illustration for a cozy cafe. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render"
+  },
+  "prompt_id": "a91cd40d-2a1c-40b4-9486-f81430c7cf36",
+  "submitted_at": "2026-11-13T12:26:57.525588",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "a91cd40d-2a1c-40b4-9486-f81430c7cf36",
+          "timestamp": 1794540417526
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "10",
+            "11"
+          ],
+          "prompt_id": "a91cd40d-2a1c-40b4-9486-f81430c7cf36",
+          "timestamp": 1794540417527
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "a91cd40d-2a1c-40b4-9486-f81430c7cf36",
+          "timestamp": 1794540428646
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\drafts\\props\\cup_empty_v03.png",
+  "elapsed_seconds": 12.1,
+  "review_status": "unused_candidate"
+}

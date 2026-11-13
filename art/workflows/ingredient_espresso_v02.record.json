@@ -1,0 +1,60 @@
+{
+  "asset": {
+    "id": "ingredient_espresso_v02",
+    "output": "ingredients/espresso_v02.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111365,
+    "transparent": true,
+    "positive": "One small ivory ceramic espresso pitcher standing upright, isolated on a pure white background. A short open spout is on its left and a small handle is on its right. The open top reveals dark brown coffee inside. The pitcher is at rest and no liquid is pouring out. No other cup or object is present. View from 45 degrees above, the entire pitcher is centered with generous margins. Plain unmarked ceramic, no label, no writing, no logo. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration, cozy muted colors. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render"
+  },
+  "prompt_id": "6bdee22b-89af-4cc6-bdf2-d22955a27be3",
+  "submitted_at": "2026-11-13T12:27:21.728057",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "6bdee22b-89af-4cc6-bdf2-d22955a27be3",
+          "timestamp": 1794540441728
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4",
+            "10",
+            "11"
+          ],
+          "prompt_id": "6bdee22b-89af-4cc6-bdf2-d22955a27be3",
+          "timestamp": 1794540441730
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "6bdee22b-89af-4cc6-bdf2-d22955a27be3",
+          "timestamp": 1794540452798
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\ingredients\\espresso_v02.png",
+  "elapsed_seconds": 12.1,
+  "review_status": "selected_first_draft"
+}

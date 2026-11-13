@@ -1,0 +1,55 @@
+{
+  "asset": {
+    "id": "cup_empty_v01",
+    "output": "props/cup_empty_v01.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111321,
+    "transparent": true,
+    "positive": "masterpiece, best quality, no humans, single isolated game item, (one empty ceramic coffee cup:1.4), rounded ivory white latte cup with a simple terracotta red stripe around the lower outside, one small handle on the right, empty clean white inside clearly visible, three-quarter view from slightly above, centered whole object with generous white margins, warm brown clean lineart, soft cel shading, cozy anime cafe game asset, simple readable silhouette, plain pure white background, no saucer, no decoration"
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped"
+  },
+  "prompt_id": "093378ce-dec5-4e41-b2a8-e11510b5000b",
+  "submitted_at": "2026-11-13T12:21:49.417151",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "093378ce-dec5-4e41-b2a8-e11510b5000b",
+          "timestamp": 1794540109417
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1"
+          ],
+          "prompt_id": "093378ce-dec5-4e41-b2a8-e11510b5000b",
+          "timestamp": 1794540109419
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "093378ce-dec5-4e41-b2a8-e11510b5000b",
+          "timestamp": 1794540116842
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\drafts\\props\\cup_empty_v01.png",
+  "elapsed_seconds": 9.0,
+  "review_status": "unused_candidate"
+}

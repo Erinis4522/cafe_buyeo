@@ -1,0 +1,124 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/art_station_v03.png"
+    }
+  },
+  "2": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/cup_foam_top_v02.png"
+    }
+  },
+  "3": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "x": 0,
+      "y": 0,
+      "width": 1006,
+      "height": 886
+    }
+  },
+  "4": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "3",
+        0
+      ],
+      "width": 604,
+      "height": 532,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "5": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "2",
+        1
+      ]
+    }
+  },
+  "6": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "5",
+        0
+      ]
+    }
+  },
+  "7": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "6",
+        0
+      ],
+      "x": 0,
+      "y": 0,
+      "width": 1006,
+      "height": 886
+    }
+  },
+  "8": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "7",
+        0
+      ],
+      "width": 604,
+      "height": 532,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "9": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "8",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "10": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "1",
+        0
+      ],
+      "source": [
+        "4",
+        0
+      ],
+      "x": 370,
+      "y": 120,
+      "resize_source": false,
+      "mask": [
+        "9",
+        0
+      ]
+    }
+  },
+  "11": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "10",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/previews/latte_art_scene"
+    }
+  }
+}

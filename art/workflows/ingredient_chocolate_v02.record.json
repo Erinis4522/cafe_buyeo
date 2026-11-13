@@ -1,0 +1,60 @@
+{
+  "asset": {
+    "id": "ingredient_chocolate_v02",
+    "output": "ingredients/chocolate_v02.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111368,
+    "transparent": true,
+    "positive": "One plain dark chocolate brown plastic squeeze bottle with a small pale beige pointed plastic nozzle cap, isolated on a pure white background. The bottle is upright and not pouring. The bottle surface is completely blank with no label, sticker, logo, letters or drawing. There is no whipped cream or food attached to the bottle. View from slightly above, the entire bottle is centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration, cozy muted colors. No other objects. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render"
+  },
+  "prompt_id": "db9a2c60-1f46-499a-9913-0a0ea4547caa",
+  "submitted_at": "2026-11-13T12:27:58.507969",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "db9a2c60-1f46-499a-9913-0a0ea4547caa",
+          "timestamp": 1794540478508
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4",
+            "10",
+            "11"
+          ],
+          "prompt_id": "db9a2c60-1f46-499a-9913-0a0ea4547caa",
+          "timestamp": 1794540478509
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "db9a2c60-1f46-499a-9913-0a0ea4547caa",
+          "timestamp": 1794540489574
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\ingredients\\chocolate_v02.png",
+  "elapsed_seconds": 12.1,
+  "review_status": "selected_first_draft"
+}

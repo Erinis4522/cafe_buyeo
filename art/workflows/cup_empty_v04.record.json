@@ -1,0 +1,60 @@
+{
+  "asset": {
+    "id": "cup_empty_v04",
+    "output": "props/cup_empty_v04.png",
+    "source": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\sources\\cup_empty_v03.png",
+    "transparent": true,
+    "clean_alpha": true,
+    "protect_regions": [
+      {
+        "x": 380,
+        "y": 440,
+        "width": 240,
+        "height": 140
+      }
+    ],
+    "note": "Preserve the white interior of the cup as opaque while removing its outside background. Original generation is cup_empty_v03."
+  },
+  "settings": {
+    "model": "anima-base-v1.0.safetensors",
+    "negative": "",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple"
+  },
+  "prompt_id": "6b6437de-1ecc-4bb9-85c1-1e3b86cded75",
+  "submitted_at": "2026-11-13T12:32:08.880519",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "6b6437de-1ecc-4bb9-85c1-1e3b86cded75",
+          "timestamp": 1794540728881
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "6b6437de-1ecc-4bb9-85c1-1e3b86cded75",
+          "timestamp": 1794540728886
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "6b6437de-1ecc-4bb9-85c1-1e3b86cded75",
+          "timestamp": 1794540729456
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\props\\cup_empty_v04.png",
+  "elapsed_seconds": 3.0,
+  "review_status": "selected_first_draft"
+}

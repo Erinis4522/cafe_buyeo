@@ -1,0 +1,58 @@
+{
+  "asset": {
+    "id": "workbench_v05",
+    "output": "backgrounds/workbench_v05.png",
+    "width": 1344,
+    "height": 768,
+    "seed": 2026111361,
+    "positive": "A hand-drawn anime illustration of a clean cozy cafe workbench seen from a steep downward angle of 60 degrees. The viewer is standing right in front of the worktop and looking down onto its upper horizontal surface. This is the TOP of the table, not its vertical front panel. A huge bare light brown wooden tabletop fills the entire lower three quarters of the landscape picture. Its subtle wooden grain is visible across the flat surface. At the far top edge there is a thin strip of beige tiled wall and a small espresso machine confined to the upper left corner. The central and lower area is completely bare and empty for placing game objects. Bright soft daylight, clean brown lineart, detailed gentle cel shading, muted warm colors, no writing, no people, no dishes. masterpiece, best quality, scenery, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render"
+  },
+  "prompt_id": "ee157ba6-896f-4cfa-b8b6-3152a672b8e8",
+  "submitted_at": "2026-11-13T12:26:36.383595",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "ee157ba6-896f-4cfa-b8b6-3152a672b8e8",
+          "timestamp": 1794540396384
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "4",
+            "10",
+            "11"
+          ],
+          "prompt_id": "ee157ba6-896f-4cfa-b8b6-3152a672b8e8",
+          "timestamp": 1794540396384
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "ee157ba6-896f-4cfa-b8b6-3152a672b8e8",
+          "timestamp": 1794540407070
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\backgrounds\\workbench_v05.png",
+  "elapsed_seconds": 12.0,
+  "review_status": "selected_first_draft"
+}

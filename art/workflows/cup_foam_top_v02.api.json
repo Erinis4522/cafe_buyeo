@@ -1,0 +1,126 @@
+{
+  "1": {
+    "class_type": "UNETLoader",
+    "inputs": {
+      "unet_name": "anima-base-v1.0.safetensors",
+      "weight_dtype": "default"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "A single off-white ceramic latte cup seen EXACTLY from directly above, a perfectly circular rim in a flat overhead plan view. The handle sticks out to the right at the three o'clock position. Only the circular rim, the right handle and the drink surface are visible, with no side wall of the cup visible. Inside is a completely smooth uniform pale beige milk foam surface with no art, pattern, swirl, bubbles or marks, intended as a blank drawing area. The complete cup is centered with generous white margins on a pure white background, no saucer. Delicate warm brown outlines, gentle detailed cel shading, hand-drawn anime illustration. No text or logos. masterpiece, best quality, no humans",
+      "clip": [
+        "10",
+        0
+      ]
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render",
+      "clip": [
+        "10",
+        0
+      ]
+    }
+  },
+  "4": {
+    "class_type": "EmptySD3LatentImage",
+    "inputs": {
+      "width": 1024,
+      "height": 1024,
+      "batch_size": 1
+    }
+  },
+  "5": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 2026111364,
+      "steps": 28,
+      "cfg": 4.5,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "simple",
+      "denoise": 1.0,
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "5",
+        0
+      ],
+      "vae": [
+        "11",
+        0
+      ]
+    }
+  },
+  "7": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/20261113_122636/cup_foam_top_v02_source"
+    }
+  },
+  "10": {
+    "class_type": "CLIPLoader",
+    "inputs": {
+      "clip_name": "qwen_3_06b_base.safetensors",
+      "type": "stable_diffusion",
+      "device": "default"
+    }
+  },
+  "11": {
+    "class_type": "VAELoader",
+    "inputs": {
+      "vae_name": "qwen_image_vae.safetensors"
+    }
+  },
+  "8": {
+    "class_type": "easy imageRemBg",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "rem_mode": "BEN2",
+      "image_output": "Hide",
+      "save_prefix": "cafe_buyeo/20261113_122636/cup_foam_top_v02",
+      "torchscript_jit": false,
+      "add_background": "none",
+      "refine_foreground": false
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/20261113_122636/cup_foam_top_v02_rgba"
+    }
+  }
+}

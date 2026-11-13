@@ -1,0 +1,56 @@
+{
+  "asset": {
+    "id": "counter_front_v01",
+    "output": "props/counter_front_v01.png",
+    "width": 1344,
+    "height": 512,
+    "seed": 2026111310,
+    "transparent": true,
+    "positive": "masterpiece, best quality, no humans, single isolated game prop, (wide horizontal wooden shop counter:1.4), honey oak wood, straight-on front view with the empty flat tabletop visible from slightly above, simple warm cream paneled front, very wide and low rectangular shape, smooth clean silhouette, entire counter visible with small margins, anime game asset, warm brown lineart, soft cel shading, gentle sunlight, plain white background, no decorations, no objects on the counter",
+    "negative": "worst quality, low quality, photorealistic, 3d render, people, hands, text, logo, watermark, room, scenery, wall, floor, cup, mug, drink, plate, objects on the counter, chair, multiple tables, diagonal view, round table"
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped"
+  },
+  "prompt_id": "8fd791dc-9191-4225-8b2c-bd75dfc2f953",
+  "submitted_at": "2026-11-13T12:23:40.874670",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "8fd791dc-9191-4225-8b2c-bd75dfc2f953",
+          "timestamp": 1794540220875
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1"
+          ],
+          "prompt_id": "8fd791dc-9191-4225-8b2c-bd75dfc2f953",
+          "timestamp": 1794540220876
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "8fd791dc-9191-4225-8b2c-bd75dfc2f953",
+          "timestamp": 1794540225109
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\drafts\\props\\counter_front_v01.png",
+  "elapsed_seconds": 6.0,
+  "review_status": "unused_candidate"
+}

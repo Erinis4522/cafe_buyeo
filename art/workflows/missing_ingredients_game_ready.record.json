@@ -1,0 +1,40 @@
+{
+  "prompt_id": "bbae3c27-8c56-4b90-9736-4956fd5e32db",
+  "status": "complete",
+  "outputs": [
+    "ingredients\\game_ready\\caramel.png",
+    "ingredients\\game_ready\\hazelnut.png",
+    "ingredients\\game_ready\\strawberry.png",
+    "ingredients\\game_ready\\matcha.png",
+    "ingredients\\game_ready\\cinnamon.png",
+    "ingredients\\game_ready\\honey.png"
+  ],
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "bbae3c27-8c56-4b90-9736-4956fd5e32db",
+          "timestamp": 1794547891082
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "bbae3c27-8c56-4b90-9736-4956fd5e32db",
+          "timestamp": 1794547891114
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "bbae3c27-8c56-4b90-9736-4956fd5e32db",
+          "timestamp": 1794547891465
+        }
+      ]
+    ]
+  }
+}

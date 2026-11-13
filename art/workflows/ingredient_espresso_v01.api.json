@@ -1,0 +1,111 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "waiIllustriousSDXL_v170.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "masterpiece, best quality, no humans, single isolated game item, one small ivory ceramic pouring jug filled with dark brown espresso coffee, short open pouring spout on the left, small handle on the right, open top with coffee visible, no lid, three-quarter view from slightly above, entire jug centered with generous margins, warm brown clean lineart, soft cel shading, cozy anime cafe game asset, simple bold readable silhouette, pure white background, no saucer",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 1024,
+      "height": 1024,
+      "batch_size": 1
+    }
+  },
+  "5": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 2026111331,
+      "steps": 28,
+      "cfg": 5.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "5",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "7": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/20261113_122340/ingredient_espresso_v01_source"
+    }
+  },
+  "8": {
+    "class_type": "easy imageRemBg",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "rem_mode": "BEN2",
+      "image_output": "Hide",
+      "save_prefix": "cafe_buyeo/20261113_122340/ingredient_espresso_v01",
+      "torchscript_jit": false,
+      "add_background": "none",
+      "refine_foreground": false
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/20261113_122340/ingredient_espresso_v01_rgba"
+    }
+  }
+}

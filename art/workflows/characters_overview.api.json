@@ -1,0 +1,869 @@
+{
+  "1": {
+    "class_type": "EmptyImage",
+    "inputs": {
+      "width": 1600,
+      "height": 1200,
+      "batch_size": 1,
+      "color": 15327441
+    }
+  },
+  "2": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/luka_neutral.png"
+    }
+  },
+  "3": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "x": 0,
+      "y": 12,
+      "width": 1248,
+      "height": 1812
+    }
+  },
+  "4": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "3",
+        0
+      ],
+      "width": 370,
+      "height": 537,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "5": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "2",
+        1
+      ]
+    }
+  },
+  "6": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "5",
+        0
+      ]
+    }
+  },
+  "7": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "6",
+        0
+      ],
+      "x": 0,
+      "y": 12,
+      "width": 1248,
+      "height": 1812
+    }
+  },
+  "8": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "7",
+        0
+      ],
+      "width": 370,
+      "height": 537,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "9": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "8",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "10": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "1",
+        0
+      ],
+      "source": [
+        "4",
+        0
+      ],
+      "x": 15,
+      "y": 31,
+      "resize_source": false,
+      "mask": [
+        "9",
+        0
+      ]
+    }
+  },
+  "11": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/bruno_neutral.png"
+    }
+  },
+  "12": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "11",
+        0
+      ],
+      "x": 0,
+      "y": 33,
+      "width": 1248,
+      "height": 1791
+    }
+  },
+  "13": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "12",
+        0
+      ],
+      "width": 370,
+      "height": 531,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "14": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "11",
+        1
+      ]
+    }
+  },
+  "15": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "14",
+        0
+      ]
+    }
+  },
+  "16": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "15",
+        0
+      ],
+      "x": 0,
+      "y": 33,
+      "width": 1248,
+      "height": 1791
+    }
+  },
+  "17": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "16",
+        0
+      ],
+      "width": 370,
+      "height": 531,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "18": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "17",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "19": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "10",
+        0
+      ],
+      "source": [
+        "13",
+        0
+      ],
+      "x": 415,
+      "y": 34,
+      "resize_source": false,
+      "mask": [
+        "18",
+        0
+      ]
+    }
+  },
+  "20": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/cain_neutral.png"
+    }
+  },
+  "21": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "20",
+        0
+      ],
+      "x": 0,
+      "y": 82,
+      "width": 1139,
+      "height": 1742
+    }
+  },
+  "22": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "21",
+        0
+      ],
+      "width": 366,
+      "height": 560,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "23": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "20",
+        1
+      ]
+    }
+  },
+  "24": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "23",
+        0
+      ]
+    }
+  },
+  "25": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "24",
+        0
+      ],
+      "x": 0,
+      "y": 82,
+      "width": 1139,
+      "height": 1742
+    }
+  },
+  "26": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "25",
+        0
+      ],
+      "width": 366,
+      "height": 560,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "27": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "26",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "28": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "19",
+        0
+      ],
+      "source": [
+        "22",
+        0
+      ],
+      "x": 817,
+      "y": 20,
+      "resize_source": false,
+      "mask": [
+        "27",
+        0
+      ]
+    }
+  },
+  "29": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/noel_neutral.png"
+    }
+  },
+  "30": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "29",
+        0
+      ],
+      "x": 94,
+      "y": 61,
+      "width": 1066,
+      "height": 1763
+    }
+  },
+  "31": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "30",
+        0
+      ],
+      "width": 339,
+      "height": 560,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "32": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "29",
+        1
+      ]
+    }
+  },
+  "33": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "32",
+        0
+      ]
+    }
+  },
+  "34": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "33",
+        0
+      ],
+      "x": 94,
+      "y": 61,
+      "width": 1066,
+      "height": 1763
+    }
+  },
+  "35": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "34",
+        0
+      ],
+      "width": 339,
+      "height": 560,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "36": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "35",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "37": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "28",
+        0
+      ],
+      "source": [
+        "31",
+        0
+      ],
+      "x": 1230,
+      "y": 20,
+      "resize_source": false,
+      "mask": [
+        "36",
+        0
+      ]
+    }
+  },
+  "38": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/cherry_neutral.png"
+    }
+  },
+  "39": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "38",
+        0
+      ],
+      "x": 0,
+      "y": 84,
+      "width": 1248,
+      "height": 1740
+    }
+  },
+  "40": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "39",
+        0
+      ],
+      "width": 370,
+      "height": 516,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "41": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "38",
+        1
+      ]
+    }
+  },
+  "42": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "41",
+        0
+      ]
+    }
+  },
+  "43": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "42",
+        0
+      ],
+      "x": 0,
+      "y": 84,
+      "width": 1248,
+      "height": 1740
+    }
+  },
+  "44": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "43",
+        0
+      ],
+      "width": 370,
+      "height": 516,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "45": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "44",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "46": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "37",
+        0
+      ],
+      "source": [
+        "40",
+        0
+      ],
+      "x": 15,
+      "y": 642,
+      "resize_source": false,
+      "mask": [
+        "45",
+        0
+      ]
+    }
+  },
+  "47": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/owen_neutral.png"
+    }
+  },
+  "48": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "47",
+        0
+      ],
+      "x": 0,
+      "y": 68,
+      "width": 1248,
+      "height": 1756
+    }
+  },
+  "49": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "48",
+        0
+      ],
+      "width": 370,
+      "height": 521,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "50": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "47",
+        1
+      ]
+    }
+  },
+  "51": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "50",
+        0
+      ]
+    }
+  },
+  "52": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "51",
+        0
+      ],
+      "x": 0,
+      "y": 68,
+      "width": 1248,
+      "height": 1756
+    }
+  },
+  "53": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "52",
+        0
+      ],
+      "width": 370,
+      "height": 521,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "54": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "53",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "55": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "46",
+        0
+      ],
+      "source": [
+        "49",
+        0
+      ],
+      "x": 415,
+      "y": 639,
+      "resize_source": false,
+      "mask": [
+        "54",
+        0
+      ]
+    }
+  },
+  "56": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/mina_neutral.png"
+    }
+  },
+  "57": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "56",
+        0
+      ],
+      "x": 119,
+      "y": 14,
+      "width": 1074,
+      "height": 1810
+    }
+  },
+  "58": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "57",
+        0
+      ],
+      "width": 332,
+      "height": 560,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "59": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "56",
+        1
+      ]
+    }
+  },
+  "60": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "59",
+        0
+      ]
+    }
+  },
+  "61": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "60",
+        0
+      ],
+      "x": 119,
+      "y": 14,
+      "width": 1074,
+      "height": 1810
+    }
+  },
+  "62": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "61",
+        0
+      ],
+      "width": 332,
+      "height": 560,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "63": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "62",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "64": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "55",
+        0
+      ],
+      "source": [
+        "58",
+        0
+      ],
+      "x": 834,
+      "y": 620,
+      "resize_source": false,
+      "mask": [
+        "63",
+        0
+      ]
+    }
+  },
+  "65": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/rio_neutral.png"
+    }
+  },
+  "66": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "65",
+        0
+      ],
+      "x": 0,
+      "y": 9,
+      "width": 1218,
+      "height": 1815
+    }
+  },
+  "67": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "66",
+        0
+      ],
+      "width": 370,
+      "height": 551,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "68": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "65",
+        1
+      ]
+    }
+  },
+  "69": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "68",
+        0
+      ]
+    }
+  },
+  "70": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "69",
+        0
+      ],
+      "x": 0,
+      "y": 9,
+      "width": 1218,
+      "height": 1815
+    }
+  },
+  "71": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "70",
+        0
+      ],
+      "width": 370,
+      "height": 551,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "72": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "71",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "73": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "64",
+        0
+      ],
+      "source": [
+        "67",
+        0
+      ],
+      "x": 1215,
+      "y": 624,
+      "resize_source": false,
+      "mask": [
+        "72",
+        0
+      ]
+    }
+  },
+  "74": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "73",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/previews/characters_overview"
+    }
+  }
+}

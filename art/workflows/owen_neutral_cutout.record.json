@@ -1,0 +1,51 @@
+{
+  "asset": {
+    "id": "owen_neutral_cutout",
+    "output": "characters/owen_neutral.png",
+    "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\owen_neutral.png",
+    "transparent": true,
+    "clean_alpha": true
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped"
+  },
+  "prompt_id": "8060c873-cd4a-4a0c-bf47-8ddfd75a0442",
+  "submitted_at": "2026-11-13T12:30:07.394457",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "8060c873-cd4a-4a0c-bf47-8ddfd75a0442",
+          "timestamp": 1794540607395
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "8060c873-cd4a-4a0c-bf47-8ddfd75a0442",
+          "timestamp": 1794540607404
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "8060c873-cd4a-4a0c-bf47-8ddfd75a0442",
+          "timestamp": 1794540607967
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\characters\\owen_neutral.png",
+  "elapsed_seconds": 3.0,
+  "review_status": "selected_first_draft"
+}

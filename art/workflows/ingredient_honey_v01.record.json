@@ -1,0 +1,61 @@
+{
+  "asset": {
+    "id": "ingredient_honey_v01",
+    "output": "ingredients/honey_v01.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111386,
+    "transparent": true,
+    "clean_alpha": true,
+    "positive": "One squat round clear glass honey pot filled with luminous golden yellow honey, its wide open rim visible. A small pale wooden honey dipper rests diagonally across the open rim, the grooved round head on the left and the handle extending a little to the right. All honey remains inside the pot, no dripping or spills. The glass pot has gently rounded sides and is completely plain and unmarked, no label, sticker, writing, logo or decoration. The honey pot and dipper form a single compact ingredient icon isolated on a pure white background. View from 35 degrees above, entire pot and dipper centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration for a cozy cafe game, warm muted colors. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render, cropped object, multiple bottles, spilled liquid"
+  },
+  "prompt_id": "2a822766-308d-4205-98b6-d9511ef5772c",
+  "submitted_at": "2026-11-13T14:28:49.812575",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "2a822766-308d-4205-98b6-d9511ef5772c",
+          "timestamp": 1794547729813
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4",
+            "10",
+            "11"
+          ],
+          "prompt_id": "2a822766-308d-4205-98b6-d9511ef5772c",
+          "timestamp": 1794547729815
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "2a822766-308d-4205-98b6-d9511ef5772c",
+          "timestamp": 1794547741581
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\ingredients\\honey_v01.png",
+  "elapsed_seconds": 12.2,
+  "review_status": "selected_first_draft"
+}

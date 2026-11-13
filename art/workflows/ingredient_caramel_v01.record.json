@@ -1,0 +1,55 @@
+{
+  "asset": {
+    "id": "ingredient_caramel_v01",
+    "output": "ingredients/caramel_v01.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111381,
+    "transparent": true,
+    "clean_alpha": true,
+    "positive": "One plain golden caramel brown plastic squeeze bottle with a small pale cream pointed nozzle cap, isolated on a pure white background. The upright bottle has rounded shoulders, a slightly tapered cylindrical body and contains thick warm caramel sauce. The bottle is completely blank and unmarked, with no label, sticker, writing, logo or decoration. No sauce is pouring out. View from slightly above, the entire single bottle centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration for a cozy cafe game, warm muted colors. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render, cropped object, multiple bottles, spilled liquid"
+  },
+  "prompt_id": "6a47f5d0-369e-4fc8-9850-8b07faece49e",
+  "submitted_at": "2026-11-13T14:27:39.948810",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "6a47f5d0-369e-4fc8-9850-8b07faece49e",
+          "timestamp": 1794547659949
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "6a47f5d0-369e-4fc8-9850-8b07faece49e",
+          "timestamp": 1794547659952
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "6a47f5d0-369e-4fc8-9850-8b07faece49e",
+          "timestamp": 1794547676265
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\ingredients\\caramel_v01.png",
+  "elapsed_seconds": 18.0,
+  "review_status": "selected_first_draft"
+}

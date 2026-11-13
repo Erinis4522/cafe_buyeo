@@ -1,0 +1,61 @@
+{
+  "asset": {
+    "id": "ingredient_matcha_v01",
+    "output": "ingredients/matcha_v01.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111384,
+    "transparent": true,
+    "clean_alpha": true,
+    "positive": "One small open cylindrical dark sage green tea tin filled to just below its rim with fine fresh matcha powder. A softly rounded mound of bright natural moss green powder is clearly visible inside the open top. The tin has a thin pale metal rim and a completely plain unmarked exterior, no label, sticker, writing, logo or decoration. No lid or other objects. The tin stands upright isolated on a pure white background. View from 40 degrees above so the green powder surface is clearly visible. Entire single short wide tin centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration for a cozy cafe game, warm muted colors. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render, cropped object, multiple bottles, spilled liquid"
+  },
+  "prompt_id": "da0ff31d-732d-4fda-b29e-f9727e818929",
+  "submitted_at": "2026-11-13T14:28:25.317800",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "da0ff31d-732d-4fda-b29e-f9727e818929",
+          "timestamp": 1794547705318
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4",
+            "10",
+            "11"
+          ],
+          "prompt_id": "da0ff31d-732d-4fda-b29e-f9727e818929",
+          "timestamp": 1794547705319
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "da0ff31d-732d-4fda-b29e-f9727e818929",
+          "timestamp": 1794547717156
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\ingredients\\matcha_v01.png",
+  "elapsed_seconds": 12.3,
+  "review_status": "selected_first_draft"
+}

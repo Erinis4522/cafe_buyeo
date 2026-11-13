@@ -1,0 +1,60 @@
+{
+  "asset": {
+    "id": "ingredient_syrup_v02",
+    "output": "ingredients/syrup_v02.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111367,
+    "transparent": true,
+    "positive": "One squat amber glass bottle of golden caramel syrup fitted with a dark brown dispenser pump, isolated on a pure white background. The pump has a short nozzle pointing left. The bottle is upright and not pouring. The glass is completely plain and unmarked, without any label, sticker, logo, drawing or letters. View from slightly above, the entire bottle and pump are centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration, cozy muted colors. No other objects. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render"
+  },
+  "prompt_id": "adad35c4-9852-42f8-8489-a017626d15a7",
+  "submitted_at": "2026-11-13T12:27:46.399265",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "adad35c4-9852-42f8-8489-a017626d15a7",
+          "timestamp": 1794540466399
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4",
+            "10",
+            "11"
+          ],
+          "prompt_id": "adad35c4-9852-42f8-8489-a017626d15a7",
+          "timestamp": 1794540466400
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "adad35c4-9852-42f8-8489-a017626d15a7",
+          "timestamp": 1794540477486
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\ingredients\\syrup_v02.png",
+  "elapsed_seconds": 12.1,
+  "review_status": "selected_first_draft"
+}

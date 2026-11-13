@@ -1,0 +1,84 @@
+{
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render"
+  },
+  "assets": [
+    {
+      "id": "workbench_v05",
+      "output": "backgrounds/workbench_v05.png",
+      "width": 1344,
+      "height": 768,
+      "seed": 2026111361,
+      "positive": "A hand-drawn anime illustration of a clean cozy cafe workbench seen from a steep downward angle of 60 degrees. The viewer is standing right in front of the worktop and looking down onto its upper horizontal surface. This is the TOP of the table, not its vertical front panel. A huge bare light brown wooden tabletop fills the entire lower three quarters of the landscape picture. Its subtle wooden grain is visible across the flat surface. At the far top edge there is a thin strip of beige tiled wall and a small espresso machine confined to the upper left corner. The central and lower area is completely bare and empty for placing game objects. Bright soft daylight, clean brown lineart, detailed gentle cel shading, muted warm colors, no writing, no people, no dishes. masterpiece, best quality, scenery, no humans"
+    },
+    {
+      "id": "counter_front_v02",
+      "output": "props/counter_front_v02.png",
+      "width": 1344,
+      "height": 512,
+      "seed": 2026111362,
+      "transparent": true,
+      "positive": "A single isolated furniture object on a pure white background: a very wide low wooden cafe serving counter, seen straight on from slightly above. A thick light brown wooden countertop is visible as a broad horizontal top surface; beneath it is a simple beige front panel framed by warm brown wood. The counter is three times wider than it is tall. It has no shelves, no recesses, no menu board and no writing. Its top is completely empty. The whole rectangular furniture object fits in the image with white space around all edges. Warm brown clean lineart, gentle detailed cel shading, softly shaded wood grain, hand-drawn anime illustration. No room or wall around it. masterpiece, best quality, no humans"
+    },
+    {
+      "id": "cup_empty_v03",
+      "output": "props/cup_empty_v03.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111363,
+      "transparent": true,
+      "positive": "A single isolated empty ceramic latte cup on a plain pure white background. It is a short wide bowl-shaped off-white cup with a simple small handle on the right and a thin terracotta red band around the lower outside. The cup is completely empty, and its clean white interior and inside bottom are visible. View from 45 degrees above, centered composition, the entire cup fits comfortably with white margins. No saucer, liquid, pattern, logo or letters. Delicate warm brown outlines and soft detailed cel shading, hand-drawn anime illustration for a cozy cafe. masterpiece, best quality, no humans"
+    },
+    {
+      "id": "cup_foam_top_v02",
+      "output": "props/cup_foam_top_v02.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111364,
+      "transparent": true,
+      "positive": "A single off-white ceramic latte cup seen EXACTLY from directly above, a perfectly circular rim in a flat overhead plan view. The handle sticks out to the right at the three o'clock position. Only the circular rim, the right handle and the drink surface are visible, with no side wall of the cup visible. Inside is a completely smooth uniform pale beige milk foam surface with no art, pattern, swirl, bubbles or marks, intended as a blank drawing area. The complete cup is centered with generous white margins on a pure white background, no saucer. Delicate warm brown outlines, gentle detailed cel shading, hand-drawn anime illustration. No text or logos. masterpiece, best quality, no humans"
+    },
+    {
+      "id": "ingredient_espresso_v02",
+      "output": "ingredients/espresso_v02.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111365,
+      "transparent": true,
+      "positive": "One small ivory ceramic espresso pitcher standing upright, isolated on a pure white background. A short open spout is on its left and a small handle is on its right. The open top reveals dark brown coffee inside. The pitcher is at rest and no liquid is pouring out. No other cup or object is present. View from 45 degrees above, the entire pitcher is centered with generous margins. Plain unmarked ceramic, no label, no writing, no logo. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration, cozy muted colors. masterpiece, best quality, no humans"
+    },
+    {
+      "id": "ingredient_milk_v02",
+      "output": "ingredients/milk_v02.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111366,
+      "transparent": true,
+      "positive": "One simple clear glass milk bottle full of opaque white milk, with a muted sage green metal cap, isolated on a pure white background. The glass is completely plain and unmarked, without a sticker, label, logo, letters, drawings or decoration. View from slightly above, the entire bottle is centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration, cozy muted colors. This is a single object illustration with no surrounding scene. masterpiece, best quality, no humans"
+    },
+    {
+      "id": "ingredient_syrup_v02",
+      "output": "ingredients/syrup_v02.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111367,
+      "transparent": true,
+      "positive": "One squat amber glass bottle of golden caramel syrup fitted with a dark brown dispenser pump, isolated on a pure white background. The pump has a short nozzle pointing left. The bottle is upright and not pouring. The glass is completely plain and unmarked, without any label, sticker, logo, drawing or letters. View from slightly above, the entire bottle and pump are centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration, cozy muted colors. No other objects. masterpiece, best quality, no humans"
+    },
+    {
+      "id": "ingredient_chocolate_v02",
+      "output": "ingredients/chocolate_v02.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111368,
+      "transparent": true,
+      "positive": "One plain dark chocolate brown plastic squeeze bottle with a small pale beige pointed plastic nozzle cap, isolated on a pure white background. The bottle is upright and not pouring. The bottle surface is completely blank with no label, sticker, logo, letters or drawing. There is no whipped cream or food attached to the bottle. View from slightly above, the entire bottle is centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration, cozy muted colors. No other objects. masterpiece, best quality, no humans"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render, cropped object, multiple bottles, spilled liquid"
+  },
+  "assets": [
+    {
+      "id": "ingredient_caramel_v01",
+      "output": "ingredients/caramel_v01.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111381,
+      "transparent": true,
+      "clean_alpha": true,
+      "positive": "One plain golden caramel brown plastic squeeze bottle with a small pale cream pointed nozzle cap, isolated on a pure white background. The upright bottle has rounded shoulders, a slightly tapered cylindrical body and contains thick warm caramel sauce. The bottle is completely blank and unmarked, with no label, sticker, writing, logo or decoration. No sauce is pouring out. View from slightly above, the entire single bottle centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration for a cozy cafe game, warm muted colors. masterpiece, best quality, no humans"
+    },
+    {
+      "id": "ingredient_hazelnut_v01",
+      "output": "ingredients/hazelnut_v01.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111382,
+      "transparent": true,
+      "clean_alpha": true,
+      "positive": "A single plain chestnut brown glass bottle of hazelnut syrup, fitted with a short muted sage green dispenser pump whose nozzle points left. Two small round hazelnuts in their brown shells rest together touching the foot of the bottle. The bottle and nuts form one compact ingredient icon isolated on a pure white background. The bottle has rounded shoulders and a tall simple cylindrical body, filled with deep warm brown syrup. The bottle is completely unmarked, no label, sticker, writing, logo or decoration. Upright and not pouring. View from slightly above, entire bottle, pump and nuts centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration for a cozy cafe game, warm muted colors. masterpiece, best quality, no humans"
+    },
+    {
+      "id": "ingredient_strawberry_v01",
+      "output": "ingredients/strawberry_v01.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111383,
+      "transparent": true,
+      "clean_alpha": true,
+      "positive": "One squat clear glass jam jar filled with ruby red strawberry preserves, with small strawberry pieces visibly suspended in the thick red syrup. A simple muted dusty rose red metal lid closes the wide mouth. The glass is completely plain and unmarked, no label, sticker, writing, logo, ribbon or decoration. The jar stands upright isolated on a pure white background. View from slightly above, the entire single jar centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration for a cozy cafe game, warm muted colors, appetizing red strawberry preserves. masterpiece, best quality, no humans"
+    },
+    {
+      "id": "ingredient_matcha_v01",
+      "output": "ingredients/matcha_v01.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111384,
+      "transparent": true,
+      "clean_alpha": true,
+      "positive": "One small open cylindrical dark sage green tea tin filled to just below its rim with fine fresh matcha powder. A softly rounded mound of bright natural moss green powder is clearly visible inside the open top. The tin has a thin pale metal rim and a completely plain unmarked exterior, no label, sticker, writing, logo or decoration. No lid or other objects. The tin stands upright isolated on a pure white background. View from 40 degrees above so the green powder surface is clearly visible. Entire single short wide tin centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration for a cozy cafe game, warm muted colors. masterpiece, best quality, no humans"
+    },
+    {
+      "id": "ingredient_cinnamon_v01",
+      "output": "ingredients/cinnamon_v01.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111385,
+      "transparent": true,
+      "clean_alpha": true,
+      "positive": "One short clear cylindrical glass spice shaker filled with fine warm reddish brown cinnamon powder. It has a simple copper brown shaker cap with several small round holes visibly arranged on its flat upper surface. Two short rolled cinnamon sticks lie together touching the base of the jar. The jar and sticks form one compact ingredient icon isolated on a pure white background. The glass is completely plain and unmarked, no label, sticker, writing, logo or decoration. View from 35 degrees above, entire shaker and cinnamon sticks centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration for a cozy cafe game, warm muted colors. masterpiece, best quality, no humans"
+    },
+    {
+      "id": "ingredient_honey_v01",
+      "output": "ingredients/honey_v01.png",
+      "width": 1024,
+      "height": 1024,
+      "seed": 2026111386,
+      "transparent": true,
+      "clean_alpha": true,
+      "positive": "One squat round clear glass honey pot filled with luminous golden yellow honey, its wide open rim visible. A small pale wooden honey dipper rests diagonally across the open rim, the grooved round head on the left and the handle extending a little to the right. All honey remains inside the pot, no dripping or spills. The glass pot has gently rounded sides and is completely plain and unmarked, no label, sticker, writing, logo or decoration. The honey pot and dipper form a single compact ingredient icon isolated on a pure white background. View from 35 degrees above, entire pot and dipper centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration for a cozy cafe game, warm muted colors. masterpiece, best quality, no humans"
+    }
+  ]
+}

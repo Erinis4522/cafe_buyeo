@@ -1,0 +1,57 @@
+{
+  "asset": {
+    "id": "ingredient_chocolate_v01",
+    "output": "ingredients/chocolate_v01.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111334,
+    "transparent": true,
+    "positive": "masterpiece, best quality, no humans, single isolated game item, one small dark chocolate brown plastic squeeze bottle with a simple pointed cream-colored nozzle cap, plain bottle without a label, three-quarter view from slightly above, entire bottle centered with generous margins, warm brown clean lineart, soft cel shading, cozy anime cafe game asset, simple bold readable silhouette, pure white background"
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped"
+  },
+  "prompt_id": "c01241ca-58e8-49fe-9e0e-7153f0c756d4",
+  "submitted_at": "2026-11-13T12:24:11.209237",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "c01241ca-58e8-49fe-9e0e-7153f0c756d4",
+          "timestamp": 1794540251210
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4"
+          ],
+          "prompt_id": "c01241ca-58e8-49fe-9e0e-7153f0c756d4",
+          "timestamp": 1794540251211
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "c01241ca-58e8-49fe-9e0e-7153f0c756d4",
+          "timestamp": 1794540256811
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\drafts\\ingredients\\chocolate_v01.png",
+  "elapsed_seconds": 6.1,
+  "review_status": "unused_candidate"
+}

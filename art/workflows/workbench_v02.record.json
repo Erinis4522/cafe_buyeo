@@ -1,0 +1,56 @@
+{
+  "asset": {
+    "id": "workbench_v02",
+    "output": "backgrounds/workbench_v02.png",
+    "width": 1344,
+    "height": 768,
+    "seed": 2026111302,
+    "positive": "masterpiece, best quality, scenery, no humans, anime visual novel background, (empty wooden tabletop:1.6), (bare clean worktop:1.5), close view looking down at an empty honey oak barista preparation table, slightly elevated view, large bare tabletop fills the lower three quarters of the frame, cream ceramic tile wall along the upper quarter, warm sunlight from the right, soft shadows at the edges, warm brown clean lineart, soft cel shading, cream and honey wood palette, simple uncluttered cozy cafe background, completely empty tabletop, wide landscape composition",
+    "negative": "worst quality, low quality, photorealistic, 3d render, people, hands, text, letters, logo, watermark, (cup, mug, glass, pitcher, jug, bottle, food, fruit, drink, plate, bowl, teapot:1.5), clutter, centerpiece, objects on tabletop, dark"
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped"
+  },
+  "prompt_id": "1740e479-720e-488e-ae72-4d0ffd201001",
+  "submitted_at": "2026-11-13T12:21:37.315212",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "1740e479-720e-488e-ae72-4d0ffd201001",
+          "timestamp": 1794540097315
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "4"
+          ],
+          "prompt_id": "1740e479-720e-488e-ae72-4d0ffd201001",
+          "timestamp": 1794540097316
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "1740e479-720e-488e-ae72-4d0ffd201001",
+          "timestamp": 1794540102907
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\drafts\\backgrounds\\workbench_v02.png",
+  "elapsed_seconds": 6.1,
+  "review_status": "unused_candidate"
+}

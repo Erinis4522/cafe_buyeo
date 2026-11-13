@@ -1,0 +1,53 @@
+{
+  "asset": {
+    "id": "workbench_v03",
+    "output": "backgrounds/workbench_v03.png",
+    "width": 1344,
+    "height": 768,
+    "seed": 2026111341,
+    "positive": "masterpiece, best quality, scenery, no humans, anime background, kitchen interior, (empty kitchen countertop:1.5), (bare light brown wooden work surface:1.4), close-up of countertop, slightly elevated viewpoint, straight horizontal counter, tabletop fills bottom two thirds, beige tile wall in background, window at right, small coffee machine in far left background, clean lineart, soft shading, warm natural daylight, cozy, muted colors",
+    "negative": "worst quality, low quality, blurry, photorealistic, 3d, people, hands, text, logo, watermark, (food, honey, syrup, liquid, plate, tray, bowl, cup, mug, glass, pitcher, jar, bottle:1.4), objects on counter, clutter, oversaturated, yellow filter, diagonal countertop"
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 30,
+    "cfg": 5.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "normal",
+    "negative": "worst quality, low quality, blurry, photorealistic, 3d, people, hands, text, logo, watermark, cropped, oversaturated"
+  },
+  "prompt_id": "7ce03222-6f41-4195-956a-f24ddc30bb8c",
+  "submitted_at": "2026-11-13T12:23:16.046939",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "7ce03222-6f41-4195-956a-f24ddc30bb8c",
+          "timestamp": 1794540196047
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "7ce03222-6f41-4195-956a-f24ddc30bb8c",
+          "timestamp": 1794540196048
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "7ce03222-6f41-4195-956a-f24ddc30bb8c",
+          "timestamp": 1794540203442
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\drafts\\backgrounds\\workbench_v03.png",
+  "elapsed_seconds": 9.0,
+  "review_status": "unused_candidate"
+}

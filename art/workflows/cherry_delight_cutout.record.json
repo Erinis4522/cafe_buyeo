@@ -1,0 +1,51 @@
+{
+  "asset": {
+    "id": "cherry_delight_cutout",
+    "output": "characters/cherry_delight.png",
+    "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\cherry_delight.png",
+    "transparent": true,
+    "clean_alpha": true
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped"
+  },
+  "prompt_id": "26ffdd29-d1b6-42fe-96a6-cee34cc8d870",
+  "submitted_at": "2026-11-13T12:29:28.194816",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "26ffdd29-d1b6-42fe-96a6-cee34cc8d870",
+          "timestamp": 1794540568195
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "26ffdd29-d1b6-42fe-96a6-cee34cc8d870",
+          "timestamp": 1794540568202
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "26ffdd29-d1b6-42fe-96a6-cee34cc8d870",
+          "timestamp": 1794540568764
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\characters\\cherry_delight.png",
+  "elapsed_seconds": 3.0,
+  "review_status": "selected_first_draft"
+}

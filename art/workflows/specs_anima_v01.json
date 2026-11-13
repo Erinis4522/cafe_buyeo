@@ -1,0 +1,29 @@
+{
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, watermark, logo, people, hands, photorealistic, 3d render"
+  },
+  "assets": [
+    {
+      "id": "workbench_v04",
+      "output": "backgrounds/workbench_v04.png",
+      "width": 1344,
+      "height": 768,
+      "seed": 2026111351,
+      "positive": "A clean hand-drawn anime visual novel background of a cozy cafe preparation station. View from the barista's position, looking slightly down across a very broad, completely empty light oak countertop. The flat horizontal work surface occupies the lower two thirds of the picture and has nothing on it, leaving clear space to place game objects later. Behind it in the upper third is a beige tiled wall and a single small espresso machine tucked into the far left corner. Warm daylight enters from a window at the right. Soft warm brown line art, gentle cel shading, a restrained beige, muted brown and terracotta palette, pleasant bright daytime lighting. A practical wide landscape game background, no people, no cups, no food, no writing. masterpiece, best quality, scenery, no humans"
+    },
+    {
+      "id": "art_station_v03",
+      "output": "backgrounds/art_station_v03.png",
+      "width": 1344,
+      "height": 768,
+      "seed": 2026111352,
+      "positive": "A clean hand-drawn anime game background. A directly overhead view of an entirely empty light oak tabletop. The level flat wooden surface fills the whole wide landscape image. Its subtle straight wooden grain runs horizontally across the frame. A plain rectangular beige fabric placemat lies flat in the center, with plenty of empty space on every side. The placemat is completely bare. Soft diffuse warm daylight, no harsh shadows, light beige and muted brown colors, clean delicate brown outlines, gentle cel shading. There are no objects, cups, dishes, food or letters anywhere. This is an empty working surface for a cafe game. masterpiece, best quality, scenery, no humans"
+    }
+  ]
+}

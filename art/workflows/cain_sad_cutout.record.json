@@ -1,0 +1,51 @@
+{
+  "asset": {
+    "id": "cain_sad_cutout",
+    "output": "characters/cain_sad.png",
+    "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\cain_sad.png",
+    "transparent": true,
+    "clean_alpha": true
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped"
+  },
+  "prompt_id": "5859c42c-e458-4794-b1b0-d8df44cc8e59",
+  "submitted_at": "2026-11-13T12:29:25.181059",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "5859c42c-e458-4794-b1b0-d8df44cc8e59",
+          "timestamp": 1794540565181
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "5859c42c-e458-4794-b1b0-d8df44cc8e59",
+          "timestamp": 1794540565189
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "5859c42c-e458-4794-b1b0-d8df44cc8e59",
+          "timestamp": 1794540565761
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\characters\\cain_sad.png",
+  "elapsed_seconds": 3.0,
+  "review_status": "selected_first_draft"
+}

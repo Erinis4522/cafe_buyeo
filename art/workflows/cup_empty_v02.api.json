@@ -1,0 +1,111 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "waiIllustriousSDXL_v170.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "masterpiece, best quality, no humans, single object, (empty ceramic mug:1.6), short wide white mug, one handle on the right, (clean white interior visible:1.5), (bottom inside the empty mug visible:1.3), viewed from slightly above, centered, entire object, simple white background, anime illustration, clean brown lineart, soft cel shading, muted colors, game item",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "worst quality, low quality, blurry, photorealistic, 3d, people, hands, text, logo, watermark, (coffee, tea, milk, water, liquid, foam, drink:1.5), saucer, plate, multiple cups, pattern, room, table, cropped",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 1024,
+      "height": 1024,
+      "batch_size": 1
+    }
+  },
+  "5": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 2026111343,
+      "steps": 30,
+      "cfg": 5.5,
+      "sampler_name": "euler_ancestral",
+      "scheduler": "normal",
+      "denoise": 1.0,
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "5",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "7": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/20261113_122316/cup_empty_v02_source"
+    }
+  },
+  "8": {
+    "class_type": "easy imageRemBg",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "rem_mode": "BEN2",
+      "image_output": "Hide",
+      "save_prefix": "cafe_buyeo/20261113_122316/cup_empty_v02",
+      "torchscript_jit": false,
+      "add_background": "none",
+      "refine_foreground": false
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "8",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/20261113_122316/cup_empty_v02_rgba"
+    }
+  }
+}

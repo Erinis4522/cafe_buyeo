@@ -1,0 +1,56 @@
+{
+  "asset": {
+    "id": "art_station_v01",
+    "output": "backgrounds/art_station_v01.png",
+    "width": 1344,
+    "height": 768,
+    "seed": 2026111303,
+    "positive": "masterpiece, best quality, scenery, no humans, (directly overhead view:1.4), flat lay, a large empty honey oak wooden cafe worktop seen from directly above, a simple plain cream linen rectangular placemat at the center, large blank clean surface, subtle wood grain, soft warm daylight from the right, warm brown lineart, soft cel shading, cozy anime game background, restrained details, spacious empty composition, wide landscape illustration",
+    "negative": "worst quality, low quality, photorealistic, 3d render, people, hands, text, letters, logo, watermark, cup, mug, glass, drink, coffee, plate, food, fruit, bowl, cutlery, perspective, wall, room, clutter"
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped"
+  },
+  "prompt_id": "06dc6bcd-e15f-4a91-b962-cb08d8e3f372",
+  "submitted_at": "2026-11-13T12:21:43.389543",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "06dc6bcd-e15f-4a91-b962-cb08d8e3f372",
+          "timestamp": 1794540103390
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "4"
+          ],
+          "prompt_id": "06dc6bcd-e15f-4a91-b962-cb08d8e3f372",
+          "timestamp": 1794540103391
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "06dc6bcd-e15f-4a91-b962-cb08d8e3f372",
+          "timestamp": 1794540108605
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\drafts\\backgrounds\\art_station_v01.png",
+  "elapsed_seconds": 6.0,
+  "review_status": "unused_candidate"
+}

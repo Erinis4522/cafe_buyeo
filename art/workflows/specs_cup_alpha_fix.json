@@ -1,0 +1,21 @@
+{
+  "settings": {
+    "model": "anima-base-v1.0.safetensors",
+    "negative": "",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple"
+  },
+  "assets": [
+    {
+      "id": "cup_empty_v04",
+      "output": "props/cup_empty_v04.png",
+      "source": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\sources\\cup_empty_v03.png",
+      "transparent": true,
+      "clean_alpha": true,
+      "protect_regions": [{"x": 380, "y": 440, "width": 240, "height": 140}],
+      "note": "Preserve the white interior of the cup as opaque while removing its outside background. Original generation is cup_empty_v03."
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "6": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo/cain_neutral.png"
+    }
+  },
+  "8": {
+    "class_type": "easy imageRemBg",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "rem_mode": "BEN2",
+      "image_output": "Hide",
+      "save_prefix": "cafe_buyeo/20261113_122910/cain_neutral_cutout",
+      "torchscript_jit": false,
+      "add_background": "none",
+      "refine_foreground": false
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "14",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/20261113_122910/cain_neutral_cutout_rgba"
+    }
+  },
+  "12": {
+    "class_type": "RemapMaskRange",
+    "inputs": {
+      "mask": [
+        "8",
+        1
+      ],
+      "min": -0.25,
+      "max": 1.0
+    }
+  },
+  "13": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "12",
+        0
+      ]
+    }
+  },
+  "14": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "6",
+        0
+      ],
+      "alpha": [
+        "13",
+        0
+      ]
+    }
+  }
+}

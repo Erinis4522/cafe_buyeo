@@ -1,0 +1,230 @@
+{
+  "1": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/counter_v01.png"
+    }
+  },
+  "2": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/luka_neutral.png"
+    }
+  },
+  "3": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "2",
+        0
+      ],
+      "x": 0,
+      "y": 12,
+      "width": 1248,
+      "height": 1812
+    }
+  },
+  "4": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "3",
+        0
+      ],
+      "width": 478,
+      "height": 694,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "5": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "2",
+        1
+      ]
+    }
+  },
+  "6": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "5",
+        0
+      ]
+    }
+  },
+  "7": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "6",
+        0
+      ],
+      "x": 0,
+      "y": 12,
+      "width": 1248,
+      "height": 1812
+    }
+  },
+  "8": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "7",
+        0
+      ],
+      "width": 478,
+      "height": 694,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "9": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "8",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "10": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "1",
+        0
+      ],
+      "source": [
+        "4",
+        0
+      ],
+      "x": 433,
+      "y": 46,
+      "resize_source": false,
+      "mask": [
+        "9",
+        0
+      ]
+    }
+  },
+  "11": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo_preview/counter_front_v03.png"
+    }
+  },
+  "12": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "11",
+        0
+      ],
+      "x": 39,
+      "y": 92,
+      "width": 1266,
+      "height": 347
+    }
+  },
+  "13": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "12",
+        0
+      ],
+      "width": 1335,
+      "height": 366,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "14": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "11",
+        1
+      ]
+    }
+  },
+  "15": {
+    "class_type": "MaskToImage",
+    "inputs": {
+      "mask": [
+        "14",
+        0
+      ]
+    }
+  },
+  "16": {
+    "class_type": "ImageCrop",
+    "inputs": {
+      "image": [
+        "15",
+        0
+      ],
+      "x": 39,
+      "y": 92,
+      "width": 1266,
+      "height": 347
+    }
+  },
+  "17": {
+    "class_type": "ImageScale",
+    "inputs": {
+      "image": [
+        "16",
+        0
+      ],
+      "width": 1335,
+      "height": 366,
+      "upscale_method": "lanczos",
+      "crop": "disabled"
+    }
+  },
+  "18": {
+    "class_type": "ImageToMask",
+    "inputs": {
+      "image": [
+        "17",
+        0
+      ],
+      "channel": "red"
+    }
+  },
+  "19": {
+    "class_type": "ImageCompositeMasked",
+    "inputs": {
+      "destination": [
+        "10",
+        0
+      ],
+      "source": [
+        "13",
+        0
+      ],
+      "x": 4,
+      "y": 556,
+      "resize_source": false,
+      "mask": [
+        "18",
+        0
+      ]
+    }
+  },
+  "20": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "19",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/previews/counter_scene"
+    }
+  }
+}

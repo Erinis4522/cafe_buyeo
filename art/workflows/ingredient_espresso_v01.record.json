@@ -1,0 +1,56 @@
+{
+  "asset": {
+    "id": "ingredient_espresso_v01",
+    "output": "ingredients/espresso_v01.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111331,
+    "transparent": true,
+    "positive": "masterpiece, best quality, no humans, single isolated game item, one small ivory ceramic pouring jug filled with dark brown espresso coffee, short open pouring spout on the left, small handle on the right, open top with coffee visible, no lid, three-quarter view from slightly above, entire jug centered with generous margins, warm brown clean lineart, soft cel shading, cozy anime cafe game asset, simple bold readable silhouette, pure white background, no saucer"
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped"
+  },
+  "prompt_id": "7934c012-328b-4568-9749-f7a59d058a76",
+  "submitted_at": "2026-11-13T12:23:53.052088",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "7934c012-328b-4568-9749-f7a59d058a76",
+          "timestamp": 1794540233052
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "4"
+          ],
+          "prompt_id": "7934c012-328b-4568-9749-f7a59d058a76",
+          "timestamp": 1794540233053
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "7934c012-328b-4568-9749-f7a59d058a76",
+          "timestamp": 1794540238687
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\drafts\\ingredients\\espresso_v01.png",
+  "elapsed_seconds": 6.0,
+  "review_status": "unused_candidate"
+}

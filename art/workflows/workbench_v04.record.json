@@ -1,0 +1,53 @@
+{
+  "asset": {
+    "id": "workbench_v04",
+    "output": "backgrounds/workbench_v04.png",
+    "width": 1344,
+    "height": 768,
+    "seed": 2026111351,
+    "positive": "A clean hand-drawn anime visual novel background of a cozy cafe preparation station. View from the barista's position, looking slightly down across a very broad, completely empty light oak countertop. The flat horizontal work surface occupies the lower two thirds of the picture and has nothing on it, leaving clear space to place game objects later. Behind it in the upper third is a beige tiled wall and a single small espresso machine tucked into the far left corner. Warm daylight enters from a window at the right. Soft warm brown line art, gentle cel shading, a restrained beige, muted brown and terracotta palette, pleasant bright daytime lighting. A practical wide landscape game background, no people, no cups, no food, no writing. masterpiece, best quality, scenery, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, watermark, logo, people, hands, photorealistic, 3d render"
+  },
+  "prompt_id": "804c382d-580f-4438-8f6a-02f37d70a8e0",
+  "submitted_at": "2026-11-13T12:24:58.671829",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "804c382d-580f-4438-8f6a-02f37d70a8e0",
+          "timestamp": 1794540298672
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "804c382d-580f-4438-8f6a-02f37d70a8e0",
+          "timestamp": 1794540298673
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "804c382d-580f-4438-8f6a-02f37d70a8e0",
+          "timestamp": 1794540312058
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\drafts\\backgrounds\\workbench_v04.png",
+  "elapsed_seconds": 15.1,
+  "review_status": "unused_candidate"
+}

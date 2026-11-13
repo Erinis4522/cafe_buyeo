@@ -1,0 +1,52 @@
+{
+  "asset": {
+    "id": "counter_v01",
+    "output": "backgrounds/counter_v01.png",
+    "width": 1344,
+    "height": 768,
+    "seed": 2026111301,
+    "positive": "masterpiece, best quality, scenery, no humans, anime visual novel background, cozy small cafe interior, warm clean lineart, soft cel shading, cream plaster walls, honey oak wood, muted terracotta accents, soft morning daylight, view from behind the serving counter looking out into the customer seating area, eye-level straight-on symmetrical composition, a broad empty wooden counter surface spanning the bottom quarter of the image, an open empty standing space for a customer at the center beyond the counter, entrance door and tall windows in the distant background, a few small tables at the far sides, potted green plants at the edges, charming storybook atmosphere, readable simple shapes, spacious uncluttered center, wide landscape illustration"
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, person, human, girl, boy, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, clutter, fisheye, distorted perspective, oversaturated, dark"
+  },
+  "prompt_id": "3f7c6342-1e7b-46d3-afe6-49718c871436",
+  "submitted_at": "2026-11-13T12:19:37.158105",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "3f7c6342-1e7b-46d3-afe6-49718c871436",
+          "timestamp": 1794539977158
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "3f7c6342-1e7b-46d3-afe6-49718c871436",
+          "timestamp": 1794539977160
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "3f7c6342-1e7b-46d3-afe6-49718c871436",
+          "timestamp": 1794539986758
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\backgrounds\\counter_v01.png",
+  "elapsed_seconds": 12.0,
+  "review_status": "selected_first_draft"
+}

@@ -1,0 +1,90 @@
+{
+  "6": {
+    "class_type": "LoadImage",
+    "inputs": {
+      "image": "cafe_buyeo/cup_empty_v03.png"
+    }
+  },
+  "8": {
+    "class_type": "easy imageRemBg",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "rem_mode": "BEN2",
+      "image_output": "Hide",
+      "save_prefix": "cafe_buyeo/20261113_123208/cup_empty_v04",
+      "torchscript_jit": false,
+      "add_background": "none",
+      "refine_foreground": false
+    }
+  },
+  "9": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "14",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/20261113_123208/cup_empty_v04_rgba"
+    }
+  },
+  "12": {
+    "class_type": "RemapMaskRange",
+    "inputs": {
+      "mask": [
+        "8",
+        1
+      ],
+      "min": -0.25,
+      "max": 1.0
+    }
+  },
+  "15": {
+    "class_type": "SolidMask",
+    "inputs": {
+      "value": 1.0,
+      "width": 240,
+      "height": 140
+    }
+  },
+  "16": {
+    "class_type": "MaskComposite",
+    "inputs": {
+      "destination": [
+        "12",
+        0
+      ],
+      "source": [
+        "15",
+        0
+      ],
+      "x": 380,
+      "y": 440,
+      "operation": "add"
+    }
+  },
+  "13": {
+    "class_type": "InvertMask",
+    "inputs": {
+      "mask": [
+        "16",
+        0
+      ]
+    }
+  },
+  "14": {
+    "class_type": "JoinImageWithAlpha",
+    "inputs": {
+      "image": [
+        "6",
+        0
+      ],
+      "alpha": [
+        "13",
+        0
+      ]
+    }
+  }
+}

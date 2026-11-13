@@ -1,0 +1,61 @@
+{
+  "asset": {
+    "id": "ingredient_hazelnut_v01",
+    "output": "ingredients/hazelnut_v01.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111382,
+    "transparent": true,
+    "clean_alpha": true,
+    "positive": "A single plain chestnut brown glass bottle of hazelnut syrup, fitted with a short muted sage green dispenser pump whose nozzle points left. Two small round hazelnuts in their brown shells rest together touching the foot of the bottle. The bottle and nuts form one compact ingredient icon isolated on a pure white background. The bottle has rounded shoulders and a tall simple cylindrical body, filled with deep warm brown syrup. The bottle is completely unmarked, no label, sticker, writing, logo or decoration. Upright and not pouring. View from slightly above, entire bottle, pump and nuts centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration for a cozy cafe game, warm muted colors. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render, cropped object, multiple bottles, spilled liquid"
+  },
+  "prompt_id": "e6cba066-1123-471d-8350-74954b8fc62a",
+  "submitted_at": "2026-11-13T14:27:57.979709",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "e6cba066-1123-471d-8350-74954b8fc62a",
+          "timestamp": 1794547677981
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4",
+            "10",
+            "11"
+          ],
+          "prompt_id": "e6cba066-1123-471d-8350-74954b8fc62a",
+          "timestamp": 1794547677983
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "e6cba066-1123-471d-8350-74954b8fc62a",
+          "timestamp": 1794547690131
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\ingredients\\hazelnut_v01.png",
+  "elapsed_seconds": 15.1,
+  "review_status": "selected_first_draft"
+}

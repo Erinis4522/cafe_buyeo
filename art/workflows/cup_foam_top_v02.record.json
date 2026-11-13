@@ -1,0 +1,60 @@
+{
+  "asset": {
+    "id": "cup_foam_top_v02",
+    "output": "props/cup_foam_top_v02.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111364,
+    "transparent": true,
+    "positive": "A single off-white ceramic latte cup seen EXACTLY from directly above, a perfectly circular rim in a flat overhead plan view. The handle sticks out to the right at the three o'clock position. Only the circular rim, the right handle and the drink surface are visible, with no side wall of the cup visible. Inside is a completely smooth uniform pale beige milk foam surface with no art, pattern, swirl, bubbles or marks, intended as a blank drawing area. The complete cup is centered with generous white margins on a pure white background, no saucer. Delicate warm brown outlines, gentle detailed cel shading, hand-drawn anime illustration. No text or logos. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render"
+  },
+  "prompt_id": "2821ab34-580f-4659-95b1-05c2e4c053f0",
+  "submitted_at": "2026-11-13T12:27:09.639587",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "2821ab34-580f-4659-95b1-05c2e4c053f0",
+          "timestamp": 1794540429640
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4",
+            "10",
+            "11"
+          ],
+          "prompt_id": "2821ab34-580f-4659-95b1-05c2e4c053f0",
+          "timestamp": 1794540429641
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "2821ab34-580f-4659-95b1-05c2e4c053f0",
+          "timestamp": 1794540440671
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\props\\cup_foam_top_v02.png",
+  "elapsed_seconds": 12.1,
+  "review_status": "selected_first_draft"
+}

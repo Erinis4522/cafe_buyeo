@@ -1,0 +1,51 @@
+{
+  "asset": {
+    "id": "luka_sad_cutout",
+    "output": "characters/luka_sad.png",
+    "source": "C:\\Users\\ksb\\Desktop\\school-main\\village_game\\village_sim\\assets\\characters\\luka_sad.png",
+    "transparent": true,
+    "clean_alpha": true
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 28,
+    "cfg": 5.5,
+    "sampler": "dpmpp_2m",
+    "scheduler": "karras",
+    "negative": "worst quality, low quality, lowres, blurry, photorealistic, 3d render, people, human, hands, face, text, letters, logo, watermark, signature, speech bubble, interface, multiple objects, duplicate, collage, grid, scenery, room, table, floor, wall, clutter, checkerboard, dark background, cropped"
+  },
+  "prompt_id": "3c4d0ca7-30b8-41ef-a307-996303c15abf",
+  "submitted_at": "2026-11-13T12:29:43.283997",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "3c4d0ca7-30b8-41ef-a307-996303c15abf",
+          "timestamp": 1794540583284
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [],
+          "prompt_id": "3c4d0ca7-30b8-41ef-a307-996303c15abf",
+          "timestamp": 1794540583291
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "3c4d0ca7-30b8-41ef-a307-996303c15abf",
+          "timestamp": 1794540583867
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\characters\\luka_sad.png",
+  "elapsed_seconds": 3.0,
+  "review_status": "selected_first_draft"
+}

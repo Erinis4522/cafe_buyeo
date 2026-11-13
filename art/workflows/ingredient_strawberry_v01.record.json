@@ -1,0 +1,61 @@
+{
+  "asset": {
+    "id": "ingredient_strawberry_v01",
+    "output": "ingredients/strawberry_v01.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111383,
+    "transparent": true,
+    "clean_alpha": true,
+    "positive": "One squat clear glass jam jar filled with ruby red strawberry preserves, with small strawberry pieces visibly suspended in the thick red syrup. A simple muted dusty rose red metal lid closes the wide mouth. The glass is completely plain and unmarked, no label, sticker, writing, logo, ribbon or decoration. The jar stands upright isolated on a pure white background. View from slightly above, the entire single jar centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration for a cozy cafe game, warm muted colors, appetizing red strawberry preserves. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render, cropped object, multiple bottles, spilled liquid"
+  },
+  "prompt_id": "04a4b8af-72b3-4eba-9fed-30a2f21276d5",
+  "submitted_at": "2026-11-13T14:28:13.086894",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "04a4b8af-72b3-4eba-9fed-30a2f21276d5",
+          "timestamp": 1794547693087
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4",
+            "10",
+            "11"
+          ],
+          "prompt_id": "04a4b8af-72b3-4eba-9fed-30a2f21276d5",
+          "timestamp": 1794547693089
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "04a4b8af-72b3-4eba-9fed-30a2f21276d5",
+          "timestamp": 1794547704907
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\ingredients\\strawberry_v01.png",
+  "elapsed_seconds": 12.2,
+  "review_status": "selected_first_draft"
+}

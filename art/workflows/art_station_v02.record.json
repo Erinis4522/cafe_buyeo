@@ -1,0 +1,56 @@
+{
+  "asset": {
+    "id": "art_station_v02",
+    "output": "backgrounds/art_station_v02.png",
+    "width": 1344,
+    "height": 768,
+    "seed": 2026111342,
+    "positive": "masterpiece, best quality, scenery, no humans, anime background, (empty light brown wooden tabletop:1.5), directly overhead view, flat lay background texture, horizontal wooden planks, smooth clean surface, subtle wood grain, bare tabletop filling entire frame, soft daylight, muted beige and light brown colors, clean lineart, soft cel shading, quiet cozy atmosphere",
+    "negative": "worst quality, low quality, blurry, photorealistic, 3d, people, hands, text, logo, watermark, food, honey, cream, syrup, liquid, plate, tray, bowl, cup, mug, glass, pitcher, jar, bottle, objects, clutter, oversaturated, perspective, diagonal planks"
+  },
+  "settings": {
+    "model": "waiIllustriousSDXL_v170.safetensors",
+    "steps": 30,
+    "cfg": 5.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "normal",
+    "negative": "worst quality, low quality, blurry, photorealistic, 3d, people, hands, text, logo, watermark, cropped, oversaturated"
+  },
+  "prompt_id": "c3249e0f-7bd4-4498-a768-07a8336b9b1f",
+  "submitted_at": "2026-11-13T12:23:25.079029",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "c3249e0f-7bd4-4498-a768-07a8336b9b1f",
+          "timestamp": 1794540205079
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "4"
+          ],
+          "prompt_id": "c3249e0f-7bd4-4498-a768-07a8336b9b1f",
+          "timestamp": 1794540205080
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "c3249e0f-7bd4-4498-a768-07a8336b9b1f",
+          "timestamp": 1794540210717
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\drafts\\backgrounds\\art_station_v02.png",
+  "elapsed_seconds": 6.0,
+  "review_status": "unused_candidate"
+}

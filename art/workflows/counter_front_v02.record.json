@@ -1,0 +1,59 @@
+{
+  "asset": {
+    "id": "counter_front_v02",
+    "output": "props/counter_front_v02.png",
+    "width": 1344,
+    "height": 512,
+    "seed": 2026111362,
+    "transparent": true,
+    "positive": "A single isolated furniture object on a pure white background: a very wide low wooden cafe serving counter, seen straight on from slightly above. A thick light brown wooden countertop is visible as a broad horizontal top surface; beneath it is a simple beige front panel framed by warm brown wood. The counter is three times wider than it is tall. It has no shelves, no recesses, no menu board and no writing. Its top is completely empty. The whole rectangular furniture object fits in the image with white space around all edges. Warm brown clean lineart, gentle detailed cel shading, softly shaded wood grain, hand-drawn anime illustration. No room or wall around it. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render"
+  },
+  "prompt_id": "9899e68c-55ec-48b7-813f-c1b9258ea140",
+  "submitted_at": "2026-11-13T12:26:48.436041",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "9899e68c-55ec-48b7-813f-c1b9258ea140",
+          "timestamp": 1794540408437
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "10",
+            "11"
+          ],
+          "prompt_id": "9899e68c-55ec-48b7-813f-c1b9258ea140",
+          "timestamp": 1794540408438
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "9899e68c-55ec-48b7-813f-c1b9258ea140",
+          "timestamp": 1794540415269
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\drafts\\props\\counter_front_v02.png",
+  "elapsed_seconds": 9.1,
+  "review_status": "unused_candidate"
+}

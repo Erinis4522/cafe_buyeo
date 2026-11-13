@@ -1,0 +1,61 @@
+{
+  "asset": {
+    "id": "ingredient_cinnamon_v01",
+    "output": "ingredients/cinnamon_v01.png",
+    "width": 1024,
+    "height": 1024,
+    "seed": 2026111385,
+    "transparent": true,
+    "clean_alpha": true,
+    "positive": "One short clear cylindrical glass spice shaker filled with fine warm reddish brown cinnamon powder. It has a simple copper brown shaker cap with several small round holes visibly arranged on its flat upper surface. Two short rolled cinnamon sticks lie together touching the base of the jar. The jar and sticks form one compact ingredient icon isolated on a pure white background. The glass is completely plain and unmarked, no label, sticker, writing, logo or decoration. View from 35 degrees above, entire shaker and cinnamon sticks centered with generous white margins. Delicate warm brown outlines, soft detailed cel shading, hand-drawn anime illustration for a cozy cafe game, warm muted colors. masterpiece, best quality, no humans"
+  },
+  "settings": {
+    "architecture": "anima",
+    "model": "anima-base-v1.0.safetensors",
+    "steps": 28,
+    "cfg": 4.5,
+    "sampler": "euler_ancestral",
+    "scheduler": "simple",
+    "negative": "worst quality, low quality, blurry, text, letters, watermark, logo, label, people, hands, photorealistic, 3d render, cropped object, multiple bottles, spilled liquid"
+  },
+  "prompt_id": "197aa1da-a202-4197-8d4f-bf84569ae2d9",
+  "submitted_at": "2026-11-13T14:28:37.623677",
+  "status": "complete",
+  "execution_status": {
+    "status_str": "success",
+    "completed": true,
+    "messages": [
+      [
+        "execution_start",
+        {
+          "prompt_id": "197aa1da-a202-4197-8d4f-bf84569ae2d9",
+          "timestamp": 1794547717624
+        }
+      ],
+      [
+        "execution_cached",
+        {
+          "nodes": [
+            "1",
+            "3",
+            "4",
+            "10",
+            "11"
+          ],
+          "prompt_id": "197aa1da-a202-4197-8d4f-bf84569ae2d9",
+          "timestamp": 1794547717626
+        }
+      ],
+      [
+        "execution_success",
+        {
+          "prompt_id": "197aa1da-a202-4197-8d4f-bf84569ae2d9",
+          "timestamp": 1794547729383
+        }
+      ]
+    ]
+  },
+  "output": "C:\\Users\\ksb\\Desktop\\cafe_buyeo\\art\\ingredients\\cinnamon_v01.png",
+  "elapsed_seconds": 12.2,
+  "review_status": "selected_first_draft"
+}

@@ -1,0 +1,86 @@
+{
+  "1": {
+    "class_type": "CheckpointLoaderSimple",
+    "inputs": {
+      "ckpt_name": "waiIllustriousSDXL_v170.safetensors"
+    }
+  },
+  "2": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "masterpiece, best quality, scenery, no humans, anime visual novel background, (empty wooden tabletop:1.6), (bare clean worktop:1.5), close view looking down at an empty honey oak barista preparation table, slightly elevated view, large bare tabletop fills the lower three quarters of the frame, cream ceramic tile wall along the upper quarter, warm sunlight from the right, soft shadows at the edges, warm brown clean lineart, soft cel shading, cream and honey wood palette, simple uncluttered cozy cafe background, completely empty tabletop, wide landscape composition",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "3": {
+    "class_type": "CLIPTextEncode",
+    "inputs": {
+      "text": "worst quality, low quality, photorealistic, 3d render, people, hands, text, letters, logo, watermark, (cup, mug, glass, pitcher, jug, bottle, food, fruit, drink, plate, bowl, teapot:1.5), clutter, centerpiece, objects on tabletop, dark",
+      "clip": [
+        "1",
+        1
+      ]
+    }
+  },
+  "4": {
+    "class_type": "EmptyLatentImage",
+    "inputs": {
+      "width": 1344,
+      "height": 768,
+      "batch_size": 1
+    }
+  },
+  "5": {
+    "class_type": "KSampler",
+    "inputs": {
+      "seed": 2026111302,
+      "steps": 28,
+      "cfg": 5.5,
+      "sampler_name": "dpmpp_2m",
+      "scheduler": "karras",
+      "denoise": 1.0,
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "2",
+        0
+      ],
+      "negative": [
+        "3",
+        0
+      ],
+      "latent_image": [
+        "4",
+        0
+      ]
+    }
+  },
+  "6": {
+    "class_type": "VAEDecode",
+    "inputs": {
+      "samples": [
+        "5",
+        0
+      ],
+      "vae": [
+        "1",
+        2
+      ]
+    }
+  },
+  "7": {
+    "class_type": "SaveImage",
+    "inputs": {
+      "images": [
+        "6",
+        0
+      ],
+      "filename_prefix": "cafe_buyeo/20261113_122137/workbench_v02_source"
+    }
+  }
+}
